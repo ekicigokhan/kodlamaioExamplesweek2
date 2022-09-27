@@ -1,0 +1,14 @@
+
+public class EmployeeManager extends PersonManager {
+	public void List() {
+		System.out.println("Listelendi : "); // OPERASYON
+	}
+
+	public void Add() {
+		System.out.println("Eklendi : "); // OPERASYON
+	}
+
+	public void BestEmployee() {
+		System.out.println("Ayýn elemaný getirildi :");
+	}
+}

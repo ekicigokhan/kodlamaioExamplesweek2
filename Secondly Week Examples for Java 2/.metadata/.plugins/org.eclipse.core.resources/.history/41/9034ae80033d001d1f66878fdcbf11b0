@@ -1,0 +1,14 @@
+
+public class Animals {
+	private String name;
+	private String voice;
+
+	public Animals(String name, String voice) {
+		this.name = name;
+		this.voice = voice;
+	}
+
+	public void sonuc() {
+		System.out.println("Hayvan ismi ve çýkardýðý ses :");
+	}
+}

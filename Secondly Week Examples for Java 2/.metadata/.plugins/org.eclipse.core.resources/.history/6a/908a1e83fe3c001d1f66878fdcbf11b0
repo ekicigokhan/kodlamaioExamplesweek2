@@ -1,0 +1,10 @@
+
+public class Horse extends Animals {
+	public void animalName() {
+		System.out.println("At");
+
+	}
+	public void animalVoice() {
+		System.out.println("Kiþniyor");
+	}
+}

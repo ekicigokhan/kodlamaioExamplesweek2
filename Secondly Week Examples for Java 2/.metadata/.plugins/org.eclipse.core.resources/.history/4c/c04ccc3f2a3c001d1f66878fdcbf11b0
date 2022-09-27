@@ -1,0 +1,10 @@
+
+public class Product { // ÜRÜN
+	//attribute || field bunlar;
+	int id;
+	String name;
+	String description;
+	double price;
+	int stockamount;
+	
+}

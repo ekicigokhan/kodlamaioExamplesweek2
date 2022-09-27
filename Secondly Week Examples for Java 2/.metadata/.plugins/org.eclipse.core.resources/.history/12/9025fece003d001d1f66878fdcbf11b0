@@ -1,0 +1,11 @@
+
+public class Dog extends Animals {
+	public void animalName() {
+		System.out.println("Köpek");
+
+	}
+
+	public void animalVoice() {
+		System.out.println("Havlýyor");
+	}
+}

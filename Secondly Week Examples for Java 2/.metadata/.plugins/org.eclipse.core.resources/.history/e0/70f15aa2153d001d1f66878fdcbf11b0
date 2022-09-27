@@ -1,0 +1,25 @@
+
+public class Cat extends Animal {
+
+	String surName;
+	
+	
+	
+	public String getSurName() {
+		return surName;
+	}
+
+	public void setSurName(String surName) {
+		this.surName = surName;
+	}
+
+	public Cat(String name, String surName) {
+		super(name);
+		super(surName);
+	}
+
+	public void speak() {
+		System.out.println(getName() + " miyavlýyor. ");
+	}
+
+}

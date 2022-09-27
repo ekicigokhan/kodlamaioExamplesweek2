@@ -1,0 +1,15 @@
+
+public class Animal {
+	private String name;
+
+	public Animal(String name) {
+		this.name = name;
+		
+	}
+
+	public void sonuc() {
+		System.out.println();
+		System.out.println();
+		System.out.println();
+	}
+}

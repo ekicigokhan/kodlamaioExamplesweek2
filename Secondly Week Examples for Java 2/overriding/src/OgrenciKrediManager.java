@@ -1,0 +1,12 @@
+
+public class OgrenciKrediManager extends BaseKrediManager {
+	public String message() {
+		String message = " Öğrenci için kredi faiz oranı ; ";
+		return message;
+	}
+
+	@Override
+	public double hesapla(double tutar) {
+		return tutar * 1.10;
+	}
+}

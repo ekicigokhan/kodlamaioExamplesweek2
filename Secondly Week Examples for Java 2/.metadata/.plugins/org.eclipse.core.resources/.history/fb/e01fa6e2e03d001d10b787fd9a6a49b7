@@ -1,0 +1,17 @@
+import java.util.Iterator;
+
+public class Main {
+
+	public static void main(String[] args) {
+//		EmailLogger logger = new EmailLogger();
+//		logger.Log("gokotekno@hotmail.com");
+		
+		BaseLogger[] loggers = new BaseLogger[]{new DatabaseLogger(), new FileLogger(), new EmailLogger()};
+		
+		for (BaseLogger baseLogger : loggers) {
+			baseLogger.Log("oldu");
+			System.out.println(baseLogger);
+		}
+	}
+
+}

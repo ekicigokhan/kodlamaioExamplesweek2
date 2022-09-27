@@ -1,0 +1,10 @@
+
+public class Cat extends Animals {
+	public void animalName() {
+		System.out.println("Kedi");
+
+	}
+	public void animalVoice() {
+		System.out.println("Miyavlýyor");
+	}
+}

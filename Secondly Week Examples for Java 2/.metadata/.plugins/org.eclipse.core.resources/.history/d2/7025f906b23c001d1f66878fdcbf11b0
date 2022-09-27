@@ -1,0 +1,19 @@
+
+public class Product { // ÜRÜN
+	// attribute || field bunlar;
+	private int id;
+	private String name;
+	private String description;
+	private double price;
+	private int stockamount;
+	private String colour;
+	private String code;
+	
+	public int getId() {
+		return id;
+	}
+	public int setId(int id) {
+		id = id;
+	}
+
+}

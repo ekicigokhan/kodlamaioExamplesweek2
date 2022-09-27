@@ -1,0 +1,8 @@
+
+public class Customer { // Müþteri
+	int id;
+	String firstName;
+	String lastName;
+	int age;
+	String e_mail;
+}

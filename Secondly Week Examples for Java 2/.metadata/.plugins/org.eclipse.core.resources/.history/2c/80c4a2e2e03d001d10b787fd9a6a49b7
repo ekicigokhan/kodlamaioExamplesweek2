@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+//		EmailLogger logger = new EmailLogger();
+//		logger.Log("gokotekno@hotmail.com");
+		
+		BaseLogger[] loggers = BaseLogger[]{new DatabaseLogger(), new FileLogger(), new EmailLogger()};
+	}
+
+}

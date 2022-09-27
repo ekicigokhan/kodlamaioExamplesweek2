@@ -1,0 +1,13 @@
+
+public class Animals {
+
+	String animalName;
+	String animalVoice;
+
+	public Animalss(String animalName, String animalVoice) {
+
+		this.animalName = animalName;
+		this.animalVoice = animalVoice;
+	}
+
+}

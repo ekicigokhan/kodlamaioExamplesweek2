@@ -1,0 +1,6 @@
+
+public class KrediManager {
+	public void Hesapla() {
+		
+	}
+}

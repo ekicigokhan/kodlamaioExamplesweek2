@@ -1,0 +1,6 @@
+
+public class Horse extends Animal {
+	public void Horse(String name) {
+		super(name);
+	}
+}

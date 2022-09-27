@@ -1,0 +1,4 @@
+
+public class Customer { // Müþteri
+	String e_mail;
+}

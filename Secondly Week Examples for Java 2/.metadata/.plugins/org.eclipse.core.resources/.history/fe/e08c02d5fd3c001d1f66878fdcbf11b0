@@ -1,0 +1,6 @@
+
+public class Animals {
+	
+	String animalName;
+	String animalVoice;
+}

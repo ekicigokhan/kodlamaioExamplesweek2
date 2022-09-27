@@ -1,0 +1,23 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		CustomerManager customerManager = new CustomerManager(); // GC (Çöp oldu.)
+		CustomerManager customerManager2 = new CustomerManager();
+		CustomerManager = customerManager2;
+		CustomerManager.add();
+		CustomerManager.Remove();
+		CustomerManager.Update();
+
+		// >>> Classes is reference type. <<<
+		// STACK VE HEAP = RAM'in mantýksal bölümleridir diyebiliriz.
+		// Stack (Stack'de deðer tipleri, pointer ve adresler saklanýrken)
+		// Heap (Heap'de ise referans deðerleri saklanmaktadýr.)
+
+		// STACK HEAP
+//101-102 oldu.	// customerManager   >>>>>>>>	{Add, Remove, Update}
+//102			// customerManager2  >>>>>>>>						
+
+	}
+
+}

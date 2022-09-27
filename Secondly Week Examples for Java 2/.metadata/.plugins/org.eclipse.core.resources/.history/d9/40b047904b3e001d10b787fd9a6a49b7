@@ -1,0 +1,8 @@
+
+public class Cat extends Animal {
+
+	public void Cat(Animal name) {
+		name.getName();
+		System.out.println(getName());
+	}
+}

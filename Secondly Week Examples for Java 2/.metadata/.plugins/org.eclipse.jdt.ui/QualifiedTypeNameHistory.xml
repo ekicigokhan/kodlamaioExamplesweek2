@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.ThreadDeath"/>
+    <fullyQualifiedTypeName name="customerManager"/>
+    <fullyQualifiedTypeName name="productManager"/>
+    <fullyQualifiedTypeName name="DortIslem"/>
+    <fullyQualifiedTypeName name="Product"/>
+    <fullyQualifiedTypeName name="Person"/>
+    <fullyQualifiedTypeName name="Customer"/>
+    <fullyQualifiedTypeName name="Employee"/>
+    <fullyQualifiedTypeName name="PersonManager"/>
+    <fullyQualifiedTypeName name="EmployeeManager"/>
+    <fullyQualifiedTypeName name="KrediUI"/>
+    <fullyQualifiedTypeName name="AskerKrediManager"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Animals"/>
+    <fullyQualifiedTypeName name="FileLogger"/>
+    <fullyQualifiedTypeName name="EmailLogger"/>
+    <fullyQualifiedTypeName name="ConsoleLogger"/>
+    <fullyQualifiedTypeName name="BaseLogger"/>
+    <fullyQualifiedTypeName name="CustomerManager"/>
+    <fullyQualifiedTypeName name="DatabaseLogger"/>
+    <fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
+    <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
+    <fullyQualifiedTypeName name="Animal"/>
+    <fullyQualifiedTypeName name="Cat"/>
+    <fullyQualifiedTypeName name="Horse"/>
+    <fullyQualifiedTypeName name="Dog"/>
+    <fullyQualifiedTypeName name="TarimKrediManager"/>
+    <fullyQualifiedTypeName name="OgrenciKrediManager"/>
+    <fullyQualifiedTypeName name="abidimanager"/>
+    <fullyQualifiedTypeName name="OgretmenKrediManager"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="BaseKrediManager"/>
+</qualifiedTypeNameHistroy>

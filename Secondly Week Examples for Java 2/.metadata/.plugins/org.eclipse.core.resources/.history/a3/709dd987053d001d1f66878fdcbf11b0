@@ -1,0 +1,9 @@
+
+public class Horse extends Animal {
+
+	public Horse() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

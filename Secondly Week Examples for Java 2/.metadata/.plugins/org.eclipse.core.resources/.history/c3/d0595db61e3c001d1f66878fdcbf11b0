@@ -1,0 +1,36 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		CustomerManager customerManager = new CustomerManager(); // GC (Çöp oldu.)
+		CustomerManager customerManager2 = new CustomerManager();
+		customerManager = customerManager2;
+		customerManager.Add();
+		customerManager.Remove();
+		customerManager.Update();
+
+		// >>> Classes is reference type. <<<
+		// STACK VE HEAP = RAM'in mantıksal bölümleridir diyebiliriz.
+		// Stack (Stack'de değer tipleri, pointer ve adresler saklanırken)
+		// Heap (Heap'de ise referans değerleri saklanmaktadır.)
+
+		// STACK -------------------------------HEAP
+//101-102 oldu.	// customerManager   >>>>>>>>	{Add, Remove, Update}
+//102			// customerManager2  >>>>>>>>		
+
+		// value type - değer tip.
+		int number1 = 10;
+		int number2 = 20;
+		number2 = number1;
+		number1 = 30;
+		System.out.println(number2); // 10
+
+		int[] numbers1 = new int[] { 1, 2, 3 };
+		int[] numbers2 = new int[] { 4, 5, 6 };
+		numbers2 = numbers1;
+		numbers1[0] = 10;
+		System.out.println(numbers2[0]); // 10
+
+	}
+
+}

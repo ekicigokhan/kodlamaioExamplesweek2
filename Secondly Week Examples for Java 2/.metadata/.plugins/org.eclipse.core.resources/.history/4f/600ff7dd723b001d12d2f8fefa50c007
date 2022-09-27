@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		customerManager customerManager = new customerManager();
+		customerManager.add();
+		customerManager.Remove();
+		customerManager.Update();
+
+	}
+
+}

@@ -1,0 +1,7 @@
+
+public class productManager {
+	public void Add(Product product) {
+		// JDBC Kodlarý yazarak DB kaydedilecek
+		System.out.println("Ürün eklendi. " + product.name);
+	}
+}
